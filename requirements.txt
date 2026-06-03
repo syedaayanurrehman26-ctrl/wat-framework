@@ -1,0 +1,7 @@
+python-dotenv
+requests
+google-auth
+google-auth-oauthlib
+google-api-python-client
+colorthief
+beautifulsoup4
