@@ -1,0 +1,33 @@
+# Secrets — NEVER copy into Docker image
+.env
+*.json
+!requirements.txt
+
+# Tokens and credentials
+token_*.json
+credentials.json
+
+# Temp and cache
+.tmp/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+.eggs/
+
+# Git
+.git/
+.gitignore
+
+# Dev tools
+.vscode/
+.idea/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if any frontend tooling)
+node_modules/
